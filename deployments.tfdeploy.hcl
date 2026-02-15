@@ -14,8 +14,8 @@ deployment "development" {
       Stack       = "learn-stacks-deploy-aws",
       Environment = "dev"
     }
-    destroy = true
   }
+   destroy = true
 }
 
 deployment "production" {
@@ -27,8 +27,8 @@ deployment "production" {
       Stack       = "learn-stacks-deploy-aws",
       Environment = "prod"
     }
-    destroy = true
   }
+  destroy = true
 }
 
 deployment "test" {
@@ -40,6 +40,6 @@ deployment "test" {
       Stack       = "learn-stacks-deploy-aws",
       Environment = "test"
     }
-    destroy = true
   }
+ destroy = true
 }
